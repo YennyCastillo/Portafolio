@@ -10,10 +10,10 @@
  /*.slides, .slider{
     min-height: 100vh;  
  } */
- .image{
+ /* .image{
     max-width: 100vh;
     
- }
+ } */
   /* .fondo{
       background:url("../imagenes/fondo.jpg") no-repeat;
   }
@@ -22,3 +22,16 @@
      margin-top: 0;
      margin-bottom: 0;
  }
+ 
+ .parallax-container {
+    height: 200px;
+  }
+
+  @media only screen and (max-width: 600px) {
+
+  
+.parallax-container {
+    height: 100px;
+  }
+
+}
