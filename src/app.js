@@ -1,15 +1,17 @@
 $(document).ready(function(){
   M.AutoInit();
 });
-// $(document).ready(function(){
-//   $('.parallax').parallax();
-// });
+
 
 $(document).ready(function(){
   $('.slider').slider();
 });
       
-
-// $(document).ready(function(){
-//   $('.tooltipped').tooltip();
-// });
+document.addEventListener('DOMContentLoaded', function() {
+  var elems = document.querySelectorAll('.slider');
+  var instances = M.Slider.init(elems,{
+    indicators: true,
+    interval: 2000,
+    height: 400,
+  });
+});
