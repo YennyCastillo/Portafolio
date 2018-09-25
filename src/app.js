@@ -1,10 +1,13 @@
-$(document).ready(function(){
-  M.AutoInit();
-});
+// $(document).ready(function(){
+//   M.AutoInit();
+// });
 
 
-$(document).ready(function(){
-  $('.slider').slider();
+// $(document).ready(function(){
+//   $('.slider').slider();
+// });
+document.addEventListener('DOMContentLoaded', function() {
+  M.AutoInit(); 
 });
       
 document.addEventListener('DOMContentLoaded', function() {
