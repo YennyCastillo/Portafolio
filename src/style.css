@@ -1,37 +1,31 @@
 
- body{
-    font-family: 'Abril Fatface',
-    
+   body{
+    font-family: 'Unlock', cursive;
+      
   }
-
-  h1{
-      font-size: 90px;
-  }
- /*.slides, .slider{
-    min-height: 100vh;  
- } */
- /* .image{
-    max-width: 100vh;
-    
- } */
-  /* .fondo{
-      background:url("../imagenes/fondo.jpg") no-repeat;
-  }
- */
- .pitch {
-     margin-top: 0;
-     margin-bottom: 0;
- }
- 
- .parallax-container {
-    height: 200px;
-  }
-
-  @media only screen and (max-width: 600px) {
 
   
-.parallax-container {
-    height: 100px;
+ /* .init, .footer, .container, .habilidades, .sobreMi  {
+    margin-top: 60px;
+ } */
+ 
+ .parallax-container {
+   
+    height: 400px;
+  
   }
+  
+  @media only screen and (max-width: 600px) {
+h2 {
+    font-size: 2rem;
+}
+h3 , h4 {
+    font-size: 1.5rem;  
+}
+.parallax-container {
+    height: 300px;
+  }
+
+
 
 }
