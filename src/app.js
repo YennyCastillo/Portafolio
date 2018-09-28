@@ -15,6 +15,11 @@ document.addEventListener('DOMContentLoaded', function() {
   var instances = M.Slider.init(elems,{
     indicators: true,
     interval: 2000,
-    height: 400,
+    height: 700,
   });
 });
+
+
+
+// solidronato: fijador de calcio
+
