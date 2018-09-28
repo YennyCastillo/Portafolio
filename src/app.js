@@ -14,7 +14,8 @@ document.addEventListener('DOMContentLoaded', function() {
   var elems = document.querySelectorAll('.slider');
   var instances = M.Slider.init(elems,{
     indicators: true,
-    height: 400,
+    interval: 6000,
+    
   });
 });
 
