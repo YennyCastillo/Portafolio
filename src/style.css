@@ -11,11 +11,11 @@
  
  .parallax-container {
    
-    height: 400px;
-  /* opacity: 0.7; */
+    height: 450px;
+  opacity: 1.5;
   }
   .proyectos {
-      font-size: 12px;
+      font-size: 15px;
   }
   
 
@@ -41,33 +41,57 @@
     margin-right: 4px;
     
   }
-.slider {
+/* .slider {
 height: 400px;  
 
-;  
-
+} */
+p {
+    font-size: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
   
-  @media only screen and (max-width: 600px) {
-h2 {
+
+@media only screen and (max-width: 600px) {
+h2 ,h3 , h4 {
     font-size: 2rem;
 }
-h3 , h4 {
-    font-size: 1.5rem;  
+h5 {
+    font-size: 1.5rem;   
 }
 .parallax-container {
-    height: 300px;
+    height: 350px;
   }
 
 p {
-font-size: 12px;
+    font-size: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.pitch {
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+.sectionP {
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+.lista{
+   text-align: left;
+}
+.margResp{
+    margin-left: 2px;
+   width: 325px;
+
+}
+.margRespons{
+    margin-left: 2px;
+   width: 346px;
+
 }
 }
  
-
- /* {
+/*{
 Border: #000 2px solid;
-} 
+}   
 text-align: center;
     color: #ffffff;
     background: url("../img/background-index2.png") no-repeat center center fixed;
@@ -76,4 +100,5 @@ text-align: center;
     -o-background-size: cover;
     width: 100%;
     height: auto;
-}  */
+}  
+*/
