@@ -10,17 +10,16 @@ font-family: 'Great Vibes', cursive;
 font-family: 'Great Vibes', cursive;
     color:#424242;
    }
+   
    .logo{
+    font-weight: bold;
+    margin-left: 30px;
     border: solid;
-    border-radius: 0.8em;
-  -moz-border-radius: 0.8em;
-  -webkit-border-radius: 0.8em;
-  color: #ffffff;
-  line-height: 1.6em;
-   width: 1.6em; 
-   margin-left: 30px;
-   font-weight: bold;
-   margin-top: 3px; 
+    width: 60px;
+    height: 60px; 
+    color: #ffffff;
+    border-radius: 50px;
+    text-align: center;
    }
   .parallax-container {
    
@@ -28,7 +27,7 @@ font-family: 'Great Vibes', cursive;
     opacity: 1;
   }
   .proyectos {
-      font-size: 15px;
+      font-size: 18px;
   }
   
  
