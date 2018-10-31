@@ -1,35 +1,31 @@
 
    body{
     
-font-family: 'Great Vibes', cursive;
+font-family: 'Robot', serif;
     color:#424242;
   
    }
-  .lema{
-    
-font-family: 'Great Vibes', cursive;
-    color:#424242;
-   }
-   
+ 
    .logo{
     font-weight: bold;
     margin-left: 30px;
     border: solid;
-    width: 70px;
-    height: 70px; 
+    width: 60px;
+    height: 60px; 
     color: #ffffff;
     border-radius: 50px;
     text-align: center;
    }
   .parallax-container {
-   
     height: 100vh;
     opacity: 1;
   }
   .proyectos {
       font-size: 18px;
   }
-  
+  .padd{
+    padding-top: 50px;   
+  }
  
 /* .navbar{
    background:  rgba(30, 30, 30, 0);
@@ -63,13 +59,13 @@ font-family: 'Great Vibes', cursive;
 
 p , span, a {
     font-size: 15px;
-    font-family: 'Robot', regular;
+    font-family: 'Robot', sans-serif;
 }
   
 .title {
-    border-bottom-style: ridge; 
+   
     
-    font-family: 'Great Vibes', cursive;
+    font-family: 'Great Vibes', sans-serif;
         color:#424242;
       
 }
@@ -97,17 +93,23 @@ padding: 10px;
 
 @media only screen and (max-width: 600px) {
 
-.title {
+/* .title {
     border-bottom-style: ridge; 
-}
-.parallax-container {
-    height: 500px;
-  }
-  
-  .logo{
+} */
+.logo{
     margin-left: 0px;
     
    }
+.form{
+       height: 60px;
+       width: 60px;
+   }
+.btn-floating{
+    width: 50px;
+    height:50px;
+    line-height: 50px;
+    padding: 0;
+}
 .pitch {
     margin-top: 0px;
     margin-bottom: 0px;
