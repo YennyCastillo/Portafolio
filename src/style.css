@@ -1,12 +1,8 @@
-
-   body{
-    
-font-family: 'Robot', serif;
+body{
+    font-family: 'Robot', serif;
     color:#424242;
-  
-   }
- 
-   .logo{
+}
+.logo{
     font-weight: bold;
     margin-left: 30px;
     border: solid;
@@ -15,82 +11,78 @@ font-family: 'Robot', serif;
     color: #ffffff;
     border-radius: 50px;
     text-align: center;
-   }
-  .parallax-container {
+}
+.parallax-container {
     height: 100vh;
     opacity: 1;
-  }
-  .proyectos {
-      font-size: 18px;
-  }
-  .padd{
+}
+.proyectos {
+    font-size: 18px;
+}
+.padd{
     padding-top: 50px;   
-  }
- 
+}
 /* .navbar{
    background:  rgba(30, 30, 30, 0);
    border-color: rgba(0,0,0, 0);
 } */
-  .pitch {
-      margin-top: 40px;
-      margin-bottom: 2px;
-  }
-
- ul li {
+.pitch {
+    margin-top: 40px;
+    margin-bottom: 2px;
+}
+ul li {
     display: inline;
-    
-  }
+}
 .contacto{
     display: block;
 }
-
 .init{
     padding: 0px;
 }
- .cont {
-     margin-top: 0px;
+.cont {
+    margin-top: 0px;
  }
- .form {
+.form {
     width: 10%;
     height: 10%;
     margin-right: 4px;
-    
-  }
-
+}
 p , span, a {
     font-size: 15px;
     font-family: 'Robot', sans-serif;
 }
-  
 .title {
-   
-    
     font-family: 'Great Vibes', sans-serif;
-        color:#424242;
-      
+    color:#424242;     
 }
 .navbar{
-  background:#FF796D;
-  }
-  
+    background:#FF796D;
+}
 .footerr{
     background:#FF796D;
     margin: 0px;
 }
+/* .resumen {
+margin-bottom: 10px;
+padding-bottom: 50px;
 
+} */
+img{
+    padding-top: 10px;
+    padding-bottom: 0px
+}
 .copyright{
-margin: 0px;
-padding: 10px;
+    margin: 0px;
+    padding: 10px;
 }
 .btn{
     border-radius: 80px 60px;
-
+    font-size: 12px;
+    margin-bottom: 10px;
 }
 .btnR{
     border-radius: 60px 80px;
-    
 }
-
 .btn-floating{
     width: 50px;
     height:50px;
@@ -105,15 +97,14 @@ padding: 10px;
 } */
 .logo{
     margin-left: 0px;
-    
-   }
-   .hability{
-   font-size: 24px; 
+}
+.hability{
+    font-size: 24px; 
 }
 .form{
-       height: 60px;
-       width: 60px;
-   }
+    height: 60px;
+    width: 60px;
+}
 .btn-floating{
     width: 50px;
     height:50px;
@@ -134,9 +125,7 @@ padding: 10px;
 .margResp{
     margin-left: 2px;
    width: 325px;
-
 }
-
 }
  
 /*{
