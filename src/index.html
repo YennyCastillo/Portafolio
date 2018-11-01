@@ -21,48 +21,57 @@
 </head>
 
 <body id="Inicio">
-
     <div class="navbar-fixed ">
         <nav class=" navbar ">
-          <div >
+          <div class="nav-wrapper">
               <a href="#Inicio" data-target="menu-responsive" class="sidenav-trigger"><i class="material-icons white-text">menu</i></a>
               <a href="#Inicio" class="brand-logo  logo">YC</a>
-            <ul class="right hide-on-med-and-down section table-of-contents">
+            <ul class="right hide-on-med-and-down">
               
               <li >
-                  <a href="#Inicio" class="white-text">Inicio</a>
+                  <a href="#Inicio" class="white-text text">Inicio</a>
                 </li>
                 <li>
-                  <a href="#Mis Proyectos" class="white-text">Mis Proyectos</a>
+                  <a href="#Mis Proyectos" class="white-text text">Mis Proyectos</a>
                 </li>
                 <li>
-                  <a href="#Mis Habilidades" class="white-text">Mis Habilidades</a>
+                  <a href="#Mis Habilidades" class="white-text text">Mis Habilidades</a>
                 </li>
                 <li>
-                  <a href="#Sobre Mi" class="white-text">Sobre Mi</a>
+                  <a href="#Sobre Mi" class="white-text text">Sobre Mi</a>
                 </li>
                 <li>
-                  <a href="#Contáctame" class="white-text">Contáctame</a>
+                  <a href="#Contáctame" class="white-text text">Contáctame</a>
                 </li>
             </ul>
           </div>
         </nav>
       </div>
-      <ul class="sidenav grey lighten-1" id="menu-responsive">
+      <ul class="sidenav grey darken-4" id="menu-responsive">
+        <div class="row divMRes">
+          <div class=" col s6">
+              <a  href="#Inicio"> <img src="../imagenes/foto-Yenny.jpeg" alt="" class="circle responsive-img mResp"></a>
+          </div>
+          <div class="col s6">
+            <br><br>
+              <p class="white-text center-align">Yenny Castillo H. <br>UXD
+              </p>
+          </div>
+        </div>
           <li>
-              <a href="#Inicio">Inicio</a>
+              <a  href="#Inicio"><p class="white-text">Inicio</p> </a>
             </li>
             <li>
-              <a href="#Mis Proyectos">Mis Proyectos</a>
+              <a class="text" href="#Mis Proyectos"><p class="white-text">Mis Proyectos</p> </a>
             </li>
             <li>
-              <a href="#Mis Habilidades">Mis Habilidades</a>
+              <a class="text"  href="#Mis Habilidades"><p class="white-text">Mis Habilidades</p></a>
             </li>
             <li>
-              <a href="#Sobre Mi">Sobre Mi</a>
+              <a class="text"  href="#Sobre Mi"><p class="white-text">Sobre Mi</p></a>
             </li>
             <li>
-              <a href="#Contáctame">Contáctame</a>
+              <a class="text"  href="#Contáctame"><p class="white-text">Contáctame</p></a>
             </li>
             
       </ul>
@@ -91,9 +100,9 @@
 
     <!-- <div  class="section scrollspy"> -->
         <div id="Mis Proyectos" class="container padd">
-        <div id="Mis Proyectos"><h3 class="center-align  title"> Mis Proyectos</h3></div>  
+        <div><h3 class="center-align  title"> Mis Proyectos</h3></div>  
         <div class="row">
-          <div class="col s12 m6 l4 proyectos">
+          <div class="col s12 m6 l4 proyectos card-panel hoverable ">
 
             <div class="row ">
 
@@ -113,7 +122,7 @@
               </div>
             </div>
           </div>
-          <div class="col s12 m6 l4 proyectos">
+          <div class="col s12 m6 l4 proyectos card-panel hoverable ">
 
             <div class="row">
               <div class="col 12 grey lighten-3 ">
@@ -132,7 +141,7 @@
             </div>
 
           </div>
-          <div class="col s12 m6 l4 proyectos">
+          <div class="col s12 m6 l4 proyectos card-panel hoverable ">
 
             <div class="row">
               <div class="col 12 grey darken-4">
@@ -142,7 +151,7 @@
               </div>
               <div class="col 12 grey lighten-3 ">
                 <span class="resumen">
-                  <p ALIGN="justify" class=""> Aquí se come.com es una app que utiliza la geolocalización para encontrar tu ubicación y mostrarte todos
+                  <p ALIGN="justify" class=""> Aquí se come.com es una app que utiliza geolocalización para encontrar tu ubicación y mostrarte todos
                     los restaurantes cerca a ti y en un radio de 500 metros. </p>
                 </span>
                 <a target="_blank" class="btn  red left" href="https://yennycastillo.github.io/lim-2018-01-foodmap/src/" data-position="bottom"> Mira mi Demo</a>
