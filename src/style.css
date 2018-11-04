@@ -1,7 +1,7 @@
 body{
-    font-family: 'Robot', serif;
+    font-family: 'Robot',sans-serif;
     color:#424242;
-    font-size: 17px;
+    font-size: 18px;
 }
 .logo{
     font-weight: bold;
@@ -34,6 +34,9 @@ body{
 ul li {
     display: inline;
 }
+ul{
+    margin-top: 0px;
+}
 .contacto{
     display: block;
 }
@@ -44,12 +47,12 @@ ul li {
     margin-top: 0px;
  }
 .form {
-    width: 10%;
-    height: 10%;
+    width:124px;
+    height: 124px;
     margin-right: 4px;
 }
 p , span, a, .text {
-    font-size: 17px;
+    font-size: 18px;
     font-family: 'Robot', sans-serif;
 }
 .title {
@@ -63,6 +66,9 @@ p , span, a, .text {
 .footerr{
     background:#FF796D;
     margin: 0px;
+}
+.habilidades{
+    margin-bottom: 0px;
 }
 /* .resumen {
 margin-bottom: 10px;
@@ -97,7 +103,7 @@ img{
 }
 
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width:600px) {
 
 .divMRes {
     border-bottom-style: ridge; 
@@ -105,12 +111,14 @@ img{
 .logo{
     margin-left: 0px;
 }
-.hability{
-    font-size: 28px; 
-}
+
 .form{
     height: 60px;
     width: 60px;
+}
+h4{
+    font-size: 32px;
+    font-family: 'Robot', serif;  
 }
 .btn-floating{
     width: 50px;
@@ -135,6 +143,42 @@ img{
 }
 }
  
+@media only screen and (max-width:992px){
+.divMRes {
+    border-bottom-style: ridge; 
+}
+.logo{
+    margin-left: 0px;
+}
+.hability{
+    font-size: 24px; 
+}
+/* .form{
+    height: 60px;
+    width: 60px;
+} */
+.btn-floating{
+    width: 50px;
+    height:50px;
+    line-height: 50px;
+    padding: 0;
+}
+.pitch {
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+.sectionP {
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+.lista{
+   text-align: left;
+}
+.margResp{
+    margin-left: 2px;
+   width: 325px;
+}   
+}
 /*{
 Border: #000 2px solid;
 }   
